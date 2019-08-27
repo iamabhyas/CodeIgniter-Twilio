@@ -75,7 +75,7 @@
 		 */
 		public function sms($from, $to, $message)
 		{
-			$url = '/' . $this->api_version . '/Accounts/' . $this->account_sid . '/SMS/Messages';
+			$url = '/' . $this->api_version . '/Accounts/' . $this->account_sid . '/Messages';
 
 			$data = array(
 				        'From'   => $from,
